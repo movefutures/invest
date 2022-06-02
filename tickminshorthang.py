@@ -30,8 +30,8 @@ class XAQueryEventHandlerO3106:
     def OnReceiveData(self, code):
         XAQueryEventHandlerO3106.query_state = 1
 id='lshblue3'
-pw='godhfma1'
-cert_pw='soheeya132@'
+pw='{password}'
+cert_pw='{password}'
 instXASession = win32com.client.DispatchWithEvents("XA_Session.XASession", XASessionEventHandler)
 instXASession.ConnectServer("hts.ebestsec.co.kr", 20001)
 instXASession.Login(id, pw, cert_pw, 0, 0)
